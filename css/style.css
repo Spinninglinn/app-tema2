@@ -163,12 +163,24 @@ header nav ul {
     max-width: 1240px;
     width: 100%;
     margin: 0 auto 0 auto;
-    background-image: url('../assets/header_back.png');
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 305px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+}
+
+.headliner {
+    color: #ff7300;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size:  60px;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+
+    
 }
 

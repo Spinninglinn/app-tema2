@@ -137,6 +137,11 @@ header nav ul {
     border-bottom: 5px solid #2b8135;
 }
 
+.button-grey:hover {
+    background-color: #0e0e0e;
+    color: #dad5db;
+}
+
 
 @media screen and (min-width: 800px) {
     .hero-container { 
@@ -149,4 +154,21 @@ header nav ul {
         flex-wrap: nowrap;
     }
    
-};
+}
+
+
+-------------------colors------------------
+
+.s2 {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    background-image: url('../assets/header_back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 305px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
